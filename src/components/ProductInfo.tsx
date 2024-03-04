@@ -11,7 +11,7 @@ const ProductInfo: React.FC<ProductInfoProps> = ({ product }) => {
 	return (
 		<div>
 			<div style={{ margin: '0 10%', textAlign: 'center', width: '80%' }}>
-				<img src={image} alt="Product Photo" style={{ width: '100%', height: 'auto' }} />
+				<img src={image} alt="" style={{ width: '100%', height: 'auto' }} />
 			</div>
 			<div style={{ margin: '0 10%', width: '80%' }}>
 				<h2>{title}</h2>
