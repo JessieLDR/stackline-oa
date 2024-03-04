@@ -21,7 +21,8 @@ export const fetchProductData = createAsyncThunk(
   'product/fetchData',
   async (_, { rejectWithValue }) => {
     try {
-      const response = await axios.get('http://localhost:8080/api/data');
+      // const response = await axios.get('http://localhost:8080/api/data');
+      const response = await axios.get('/data.json');
       // data transformation here if necessary
       return response.data;
     } catch (error) {
