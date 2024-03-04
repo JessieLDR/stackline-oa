@@ -1,6 +1,6 @@
 import React from 'react';
 import ProductComponent from './pages/Product';
-import logo from './stackline_logo.svg';
+import logo from './assets/stackline_logo.svg';
 
 function App() {
   return (
